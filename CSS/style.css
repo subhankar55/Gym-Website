@@ -11,20 +11,47 @@ body{
 .left{
     display: inline-block;
     border: 2px solid red;
+    /* We can do the below portion with help of float also */
     position: absolute;
     left: 34px;
-    top: 0px;
+    top: 20px;
+}
+.left img{
+    width: 36px;
+    filter: invert(90%);
+    display: block;
+    margin: 0% auto;
+}
+.left div{
+    text-align: center;
 }
 .mid{
     display: block;
     width: 33%;
-    margin: 12px auto;
+    margin: 20px auto;
     border: 2px solid rgba(1, 101, 15, 0.999);
 }
 .right{
     position: absolute;
     right: 34px;
-    top: 0px;
+    top: 20px;
     display: inline-block;
     border: 2px solid rgb(242, 255, 0);
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
 }

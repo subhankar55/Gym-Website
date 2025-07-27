@@ -1,0 +1,30 @@
+/* CSS Reset */
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/Images/fitwoman.jpg');
+    background-size: cover;
+    height : 100vh;
+}
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    border: 2px solid rgba(1, 101, 15, 0.999);
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    display: inline-block;
+    border: 2px solid rgb(242, 255, 0);
+}

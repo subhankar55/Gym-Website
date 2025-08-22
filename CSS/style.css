@@ -1,7 +1,7 @@
 /* CSS Reset */
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Baloo Bhai';
     color: white;
     margin: 0px;
     padding: 0px;
@@ -11,7 +11,7 @@ body{
 }
 .left{
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* We can do the below portion with help of float also */
     position: absolute;
     left: 34px;
@@ -19,26 +19,27 @@ body{
 }
 .left img{
     width: 36px;
-    filter: invert(90%);
+    filter: invert(70%);
     display: block;
     margin: 0% auto;
 }
 .left div{
-    line-height: 10px;
+    line-height: 20px;
+    font-size: large;
     text-align: center;
 }
 .mid{
     display: block;
     width: 45%;
     margin: 20px auto;
-    border: 2px solid rgba(1, 101, 15, 0.999);
+    /* border: 2px solid rgba(1, 101, 15, 0.999); */
 }
 .right{
     position: absolute;
     right: 34px;
     top: 20px;
     display: inline-block;
-    border: 2px solid rgb(242, 255, 0);
+    /* border: 2px solid rgb(242, 255, 0); */
 }
 .navbar{
     display: inline-block;
@@ -58,7 +59,7 @@ body{
     color: grey;
 }
 .btn{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Baloo Bhai';
     margin: 0px 9px;
     background-color: black;
     color: white;
@@ -70,6 +71,32 @@ body{
 }
 .btn:hover{
     background-color: #4a4a4a;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 120px 80px;
+    padding: 65px 65px;
+    width: 33%;
+    border-radius: 26px;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    display: block;
+    text-align: center;
+    width: 260px;
+    padding: 2px 2px;
+    margin: 20px auto;
+    border: 2px solid rgb(140, 139, 139);
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai';
+}
+.form-group .btn{
+    display: block;
+    margin: 40px auto;
 }
 
 /* upto 32:30 lecture time */

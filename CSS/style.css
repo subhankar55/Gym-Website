@@ -1,7 +1,7 @@
 /* CSS Reset */
 
 body{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
     margin: 0px;
     padding: 0px;
@@ -24,6 +24,7 @@ body{
     margin: 0% auto;
 }
 .left div{
+    line-height: 10px;
     text-align: center;
 }
 .mid{
@@ -57,7 +58,7 @@ body{
     color: grey;
 }
 .btn{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0px 9px;
     background-color: black;
     color: white;
